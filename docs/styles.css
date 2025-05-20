@@ -15,7 +15,7 @@ img {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Efecto hover: aumenta ligeramente y añade glow */
+/* Efecto hover: Aumenta levemente y añade glow */
 .gallery-item img:hover,
 .barbero-img:hover,
 .local-img:hover {
@@ -55,7 +55,7 @@ img {
                -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-/* Hero Text: La palabra Xclusive en cursiva, con fuente Lucida Calligraphy, tamaño grande y efecto LED */
+/* Hero Text: La palabra Xclusive en cursiva, con fuente Lucida Calligraphy, tamaño 12em y efecto LED */
 .hero-text {
   text-align: center;
   margin: 20px 0;
@@ -75,7 +75,7 @@ img {
     0 0 40px #fff;
 }
 
-/* Títulos de sección, centrados con margen inferior extra para separar de las imágenes */
+/* Títulos de sección centrados, con mayor margen inferior para separar de las imágenes */
 section h2 {
   text-align: center;
   margin-top: 40px;
@@ -85,7 +85,7 @@ section h2 {
                -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-/* Galería: Imágenes en 2 columnas, altura 500px, sin recorte */
+/* Galería: Imágenes en 2 columnas, altura 500px y sin recorte */
 .gallery-item {
   margin-bottom: 20px;
 }
@@ -95,7 +95,7 @@ section h2 {
   object-fit: contain;
   filter: drop-shadow(0 0 10px rgba(0,0,0,0.8));
 }
-/* Si la cantidad es impar, la última imagen se centra */
+/* Cuando la cantidad es impar, la última imagen se centra */
 .gallery-item:last-child:nth-child(odd) {
   float: none;
   margin-left: auto;
@@ -126,7 +126,7 @@ section h2 {
                -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-/* Local: Container-fluid para mayor ancho; imágenes aumentadas a 600px de altura */
+/* Local: Se emplea container-fluid para mayor ancho; imágenes aumentadas a 600px de altura */
 .local-img {
   width: 100%;
   height: 600px;
@@ -177,7 +177,7 @@ section h2 {
                -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-/* Ubicación: Fondo oscuro, padding, border-radius */
+/* Ubicación: Fondo oscuro, padding y border-radius */
 .direccion {
   background: rgba(0,0,0,0.7);
   padding: 10px;
@@ -193,7 +193,7 @@ section h2 {
   margin-right: 8px;
 }
 
-/* Contacto: Fondo oscuro, padding, border-radius */
+/* Contacto: Fondo oscuro, padding y border-radius */
 .contact-icons {
   background: rgba(0,0,0,0.7);
   padding: 10px;
@@ -211,7 +211,7 @@ section h2 {
                -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-/* Responsive: Ajustes para pantallas pequeñas */
+/* Media Queries: Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
   .nav-container {
     flex-direction: column;
@@ -223,11 +223,11 @@ section h2 {
   .nav-buttons ul li {
     margin: 10px 0;
   }
-  /* Reducir el tamaño de la hero text en dispositivos móviles */
+  /* Reducir el tamaño del hero-text a la mitad para móviles */
   .hero-text h1 {
-    font-size: 6em;
+    font-size: 3em;
   }
-  /* Reducir la altura de las imágenes para móviles */
+  /* Ajuste en la altura de las imágenes en móviles */
   .gallery-item img,
   .barbero-img,
   .local-img {
@@ -235,12 +235,6 @@ section h2 {
     max-height: 300px;
   }
 }
-
-
-
-
-
-
 
 
 
